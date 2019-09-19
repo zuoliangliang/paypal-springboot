@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    cache: false
+
+paypal:
+  mode: sandbox
+  client:
+    app: xxxxxxxxxxxxxxxxxxYOUR_CLIENT_IDxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    secret: xxxxxxxxxxxxxxxxxxYOUR_CLIENT_SECRETxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
